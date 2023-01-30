@@ -1,0 +1,19 @@
+:root {
+    --clr-primary: hsl(354, 77%, 53%);
+    --clr-secondary: rgb(41, 57, 226);
+    --clr-surface: hsl(0, 0%, 8%);
+    --clr-surface-muted: hsl(0, 0%, 4%);
+    --clr-surface-bright: hsl(0, 0%, 12%);
+    --clr-text: hsl(0, 0%, 85%);
+    --clr-text-muted: hsl(0, 0%, 70%);
+    --clr-text-bright: hsl(0, 0%, 97%);
+    --gradient: linear-gradient(-45deg, var(--clr-primary), var(--clr-secondary));
+  }
+
+  body {
+    font-family: system-ui;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    background: var(--clr-surface);
+    color: var(--clr-text);
+  }
