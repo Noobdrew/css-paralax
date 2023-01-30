@@ -19,30 +19,30 @@ body {
 }
 
 .site-header {
-    background-image: url('/sky.jpg');
-    background-position: 00px -30px;
+     background-image: url('./img/sky.jpg'); 
+    background-position: 0px -30px;
     background-size: cover;
     padding: 5rem;
-    min-height: 70vh;
+    min-height: 75vh;
+    
     position: relative;
 }
 
 .site-header-mask {
     position: absolute;
     inset: 0;
-    -webkit-mask: url('/Group\ 1.svg');
-    mask: url('/Group\ 1.svg');
-    -webkit-mask-position: 00px -30px;
+    
+    -webkit-mask: url('./img/mask-1.png');
+    mask: url('./img/mask-1.png');
+    -webkit-mask-position: 0px -30px;
     -webkit-mask-size: cover;
-    mask-position: 00px -30px;
+    mask-position: 0px -30px;
     mask-size: cover;
-
-
 }
 
 .site-title {
     text-align: center;
-    font-size: clamp(4rem, 10vw + 0.5rem, 9rem);
+    font-size: 10rem;
     font-weight: 900;
     text-transform: uppercase;
     position: fixed;
